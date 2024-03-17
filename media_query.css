@@ -1,0 +1,113 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) , 
+(min-width: 600px) and (max-width: 768px ){
+    .home .navbar .logo 
+    {
+        float: none;
+        width: 100%;
+        /* background-color: red; */
+        text-align: center;
+    }
+    .home .navbar .logo img
+    {
+        width: 40%;
+    }
+    .home .navbar .links {
+        float: none;
+        /* background-color: teal; */
+        text-align: center;
+    }
+    .home .navbar .links li {
+        /* display: block !important; */
+        padding: 10px 18px;
+    }
+    .home .navbar .links li.active 
+    {
+        border-top: none;
+        background-color: #686868;
+
+    }
+    /* .home .home-content
+    {
+        margin-top: 50px;
+    } */
+    .home .home-content h1 
+    {
+        font-size: 50px;
+    }
+    .home .home-content p
+    {
+        font-size: 18px;
+        padding: 0px 10px;
+        line-height: 150%;
+    }
+
+    /*about*/
+    .about .about-content,
+    .about .about_image , 
+    .location .location-content,
+    .location .location-image ,
+    .baking .bake_item , 
+    .contact .contact-info ,
+    .contact .contact-map ,
+    .overall-info .info ,
+    .overall-info .about-info
+    {
+        float: none;
+        /* text-align: center; */
+        width: 90%;
+        margin: auto;
+    }
+    .location .location-content , 
+    .contact .contact-info
+    {
+        margin-bottom: 40px;
+    }
+    
+   
+    
+   
+    
+    
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+  
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .home .navbar
+    {
+        background-color: gray;
+        /* padding: 8px; */
+    }
+    .home .navbar .links li
+    {
+        padding: 19px 12px;
+    }
+    .home .navbar .logo
+    {
+        /* padding: 11px 5px; */
+        width: 20%;
+    }
+    .overall-info .info ,
+    .overall-info .about-info
+    {
+        width: 50% !important;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
